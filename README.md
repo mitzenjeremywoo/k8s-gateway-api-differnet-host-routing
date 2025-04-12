@@ -1,4 +1,12 @@
 
+Create the gateway and http routes
+
+k apply -f gateway.yaml
+
+k apply -f httproute-A.yaml
+
+k apply -f httproute-B.yaml
+
 Get the ip address of your gateway using the following command: 
 
 k get gateway 
